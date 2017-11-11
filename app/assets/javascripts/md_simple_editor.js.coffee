@@ -100,4 +100,4 @@ initializeEditor = ->
   $('.preview_md').click ->
     preview()
 
-$(document).on 'turbolinks:load page:load ready', initializeEditor
+$(document).on 'turbolinks:load', initializeEditor
